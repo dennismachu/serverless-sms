@@ -34,11 +34,12 @@ provider:
 
 functions:
   sendSMS:
-    handler: src/handler.sendSMS
+    handler: dist/handler.sendSMS
     events:
       - http:
           path: send
           method: post
+          cors: true
 resources:
   Resources:
     SmsQueue:
