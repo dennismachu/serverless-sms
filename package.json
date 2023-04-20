@@ -1,0 +1,26 @@
+{
+  "name": "serverless-sms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennismachu/serverless-sms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennismachu/serverless-sms/issues"
+  },
+  "homepage": "https://github.com/dennismachu/serverless-sms#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1361.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  }
+}
